@@ -1,0 +1,33 @@
+{
+  "name": "WE-Java",
+  "version": "1.0.0",
+  "description": "蓝山工作室后端Java交作业处",
+  "main": "index.js",
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.0",
+    "@commitlint/config-conventional": "^12.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.1.1",
+    "standard-version": "^9.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "git cz  && git push origin master && standard-version && git push --follow-tags origin master"
+  },
+  "config": {
+    "commitizen": {
+      "path": "D:/software/Nodejs/node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-sky-12138/WE-Java.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blue-sky-12138/WE-Java/issues"
+  },
+  "homepage": "https://github.com/blue-sky-12138/WE-Java#readme"
+}
